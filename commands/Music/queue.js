@@ -10,7 +10,7 @@ module.exports = {
         const q = queue.songs.map((song, i) => `${i === 0 ? "Reproduciendo:" : `${i}.`} ${song.name} - \`${song.formattedDuration}\``).join("\n")
 
         const embed = new EmbedBuilder()
-        .setColor('#Random')
+        .setColor('Random')
         .setDescription(`📄 | **Lista de reproducción**\n${q}`)     
         message.channel.send({ embeds: [embed]})
     }
