@@ -21,7 +21,7 @@ module.exports = (client) => {
                 emitEventsAfterFetching: true,
             }),
             new SoundCloudPlugin(),
-            new YtDlpPlugin()
+            new YtDlpPlugin({ update: true })
         ],
     });
 
