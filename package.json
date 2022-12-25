@@ -24,7 +24,7 @@
     "libsodium-wrappers": "^0.7.10",
     "node-fetch": "^2.6.7",
     "opusscript": "^0.0.8",
-    "superagent": "^7.0.2",
+    "superagent": "^7.1.5",
     "xml2js": "^0.4.23"
   }
 }
